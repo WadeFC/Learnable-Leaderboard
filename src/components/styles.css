@@ -1,0 +1,89 @@
+*>*{
+    font-family: "poppins" , cursive;
+    margin:0;
+}
+:root{
+    --color-light:#F3f3f2;
+    --color-dark:#2C3131;
+    --color-blue:rgb(62, 62, 167);
+}
+
+/* #main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+} */
+.board{
+    background-color:rgb(100, 127, 149);
+    /* background-color: #2C3131; */
+    text-align: center;
+}
+
+.board .leaderboard{
+    margin-bottom: 1em;
+}
+
+.board .duration {
+    display:flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+.btn{
+    width: 20%;
+    height: 10%;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.board .duration > button{
+    border:1px solid var(--color-light);
+    padding: 1em 1em;
+}
+
+.board .duration > button:hover{
+    background-color: var(--color-blue);
+    color: var(--color-dark);
+}
+
+.active{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+#profile{
+    margin-top: 3em;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 2em;
+    border: solid white;
+    border-radius: 2rem;
+}
+
+#profile.flex.item{
+    display:flex;
+    align-items: center;
+}
+.item img {
+    width: 80px;
+    border-radius: 100%;
+}
+#profile.flex img{
+    width: 20%;
+}
+#profile.flex.info{
+    padding: 1em;
+}
+
+.text-dark{
+    color:var(--color-dark);
+}
